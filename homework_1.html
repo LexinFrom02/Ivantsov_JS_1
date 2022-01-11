@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework_1</title>
+</head>
+<body>
+    <script>
+        {
+            "use strict";
+            let hello_world = "Hello world!"
+            console.log('Задание 1.1 - ' + hello_world);
+
+            let tmp = 0.07;
+            console.log('Задание 1.2 - ' + tmp);
+
+            let user = "Doe";
+            let login = user;
+            console.log('Задание 1.3 - ' + login);
+
+            let a = 3, b = 5;
+            console.log('Задание 1.4 - ' + (a + b));
+            
+            const ADMIN = "admin";
+            console.log('Задание 1.5 - ' + ADMIN);
+            // модификатор константы гарантирует то, что значение может быть присвоено только один раз (т.е. не может изменяться)
+
+            // Т.к. перемнные a и b уже используются в задании - изменим их название на a1 и b1 соответственно 
+            let a1 = 3, b1 = 5;
+            let check1, check2, check3, check4, check5, check6;
+            check1 = a + b;
+            check2 = a - b;
+            check3 = a * b;
+            check4 = a / b;
+            check5 = a % b;
+            check6 = a ** b;
+            console.log('Результаты - ' + check1, check2, check3, check4, check5, check6);
+
+            // Т.к. перемнные a и b уже используются в задании - изменим их название на a2 и b2 соответственно
+            let a2 = 0, b2 = 0;
+            let incAfter, incPost;
+            incAfter = a2++;
+            incPost = ++b2;
+            console.log('Постфиксный - ' + incAfter + ' Префиксный - ' + incPost);
+
+            // Т.к. перемнные a и b уже используются в задании - изменим их название на a3 и b3 соответственно
+            let a3 = 5, b3 = 5;
+            let decAfter, decPost;
+            decAfter = a3--;
+            decPost = --b3;
+            console.log('Постфиксный - ' + decAfter + ' Префиксный - ' + decPost);
+        }
+    </script>
+</body>
+</html>
